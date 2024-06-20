@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
-import OneAppointment from './OneAppointment';
 import { getAllAppointments, getFutureAppointmentsCount } from './appointmentApi';
+import OneAppointment from './OneAppointment';
 import './appointmentCss/allAppointments.css';
-import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+
 // alert-successes-style
 import * as React from 'react';
 import Snackbar from '@mui/material/Snackbar';
