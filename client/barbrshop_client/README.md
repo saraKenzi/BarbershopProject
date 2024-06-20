@@ -33,6 +33,6 @@ The client application interacts with the Barbershop API to provide a user-frien
   ```bash
   yarn start
   ```
-  2. The broser will open at navigate to http://localhost:3000.
+  2. The browser will open at navigate to http://localhost:3000.
   3. Now you can to view the application.
  
