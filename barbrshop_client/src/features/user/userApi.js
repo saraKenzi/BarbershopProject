@@ -20,7 +20,10 @@ const loginInServer = async (user) => {
 
 const signUpInServer = async (user) => {
     try {
-        const response = await axios.post(`${baseUrl}/AddUser`, user);
+        const response = await axios.post(`${baseUrl}/AddUser`, user,
+            { withCredentials: true }  // כולל את הקוקיז בבקשה
+
+        );
         return response;
     } catch (error) {
         console.error('Sign up error:', error);
